@@ -1,4 +1,4 @@
-texto = "Hello World"
+texto = input("Digite um texto")
 vogais = "aeiou"
 total_letras = len(texto.replace(" ", ""))
 vogais_texto = [vogal for vogal in texto.lower() if vogal in vogais]
